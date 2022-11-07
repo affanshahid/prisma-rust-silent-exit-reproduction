@@ -14,7 +14,6 @@ RUN cargo build --target x86_64-unknown-linux-musl --release
 COPY prisma ./prisma
 COPY src ./src
 RUN touch ./src/main.rs
-RUN cargo run -p prisma-cli -- generate
 RUN cargo build -p prisma-rust-silent-exit-reproduction --target x86_64-unknown-linux-musl --release --locked
 
 FROM scratch
