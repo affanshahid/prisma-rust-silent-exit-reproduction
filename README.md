@@ -1,4 +1,4 @@
-# PRISMA RUST SILENT EXIT REPRODUCTION
+# Prisma Rust Silent Exit Reproduction
 
 This repo demonstrates an [issue](https://github.com/Brendonovich/prisma-client-rust/issues/198) with [prisma-client-rust](https://github.com/Brendonovich/prisma-client-rust/issues/198) when running inside docker.
 
